@@ -8,7 +8,7 @@ Component - ProductController is added along with the default behavior which giv
 
 2) add a product into the existing ArrayList via json request in a POST call
 
-	Soap UI Screenshot for points 1) and 2) is available in src/main/resource directory 
+		Soap UI Screenshot for points 1) and 2) is available in src/main/resource directory 
 
 ## Show me the important parts!
  
@@ -48,7 +48,11 @@ You can build and run the process application with Spring Boot.
 ```bash
 mvn clean package
 ```
-2. Run the *.jar file from the `target` directory using:
+2. Install the application using:
+```bash
+mvn install
+```
+3. Run the *.jar file from the `target` directory using:
 ```bash
 java -jar target/SpringBootRestProductApp-1.0.jar
 ```
